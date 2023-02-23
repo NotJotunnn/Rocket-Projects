@@ -58,7 +58,7 @@
             <td><a href="./RocketShoe">Rocket Shoe</a></td>
             <td>13/08/2022<br>às 13:03</td>
             <td align="center">
-            <a href="./RocketShoe"><img width="300px" src="./Rocketshoe/assets/rocketshoe.jpg" /></a></td>
+            <a href="./RocketShoe"><img width="300px" src="./RocketShoe/assets/rocketshoe.jpg" /></a></td>
         </tr>
         <tr>
             <td>03</td>
@@ -122,7 +122,7 @@
             <td><a href="./RocketShoe">Rocket Shoe</a></td>
             <td>13/08/2022<br>at 01:03PM</td>
             <td align="center">
-            <a href="./RocketShoe"><img width="300px" src="./Rocketshoe/assets/rocketshoe.jpg" /></a></td>
+            <a href="./RocketShoe"><img width="300px" src="./RocketShoe/assets/rocketshoe.jpg" /></a></td>
         </tr>
         <tr>
             <td>03</td>
