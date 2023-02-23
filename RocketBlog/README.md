@@ -1,0 +1,35 @@
+<p align="center"><img src="./images/search.svg" width="90"/></p>
+
+# Rocket Blog
+
+<p align="center">
+<span>Language:</span><br>
+  <a href="#descrição"><img alt="Português" src="https://img.shields.io/badge/Português-PTBR-blue?style=for-the-badge"></a>
+  <a href="#description"><img alt="English" src="https://img.shields.io/badge/English-EN-blue?style=for-the-badge"></a>
+</p>
+
+<p align="center">
+<span>Coding Laguage:</span><br>
+  <a target="_blank" href="https://www.w3schools.com/html/"><img alt="HTML" src="https://img.shields.io/badge/html-D26531?style=for-the-badge"></a>
+  <a target="_blank" href="https://www.w3schools.com/Css/"><img alt="Coding language" src="https://img.shields.io/badge/css-3172B3?style=for-the-badge"></a>
+</p>
+
+<p align="center">
+<span>Tools:</span><br>
+  <a target="_blank" href="https://www.figma.com/"><img alt="Figma" src="https://img.shields.io/badge/Figma-E7796B?style=for-the-badge"></a>
+  <a target="_blank" href="https://git-scm.com/"><img alt="Git" src="https://img.shields.io/badge/Git-C9543E?style=for-the-badge"></a>
+  <a target="_blank" href="https://github.com/"><img alt="Github" src="https://img.shields.io/badge/Github-000000?style=for-the-badge"></a>
+</p>
+
+
+<p align="center">
+  <img src="./images/rocketblog.jpeg" width="100%">
+</p>
+
+## Descrição
+
+<p>Olá! E sejam muito bem vindos ao primeiro blog que já tive a chance de codar!<br>Este é um dos mais velhos projetos meus (Não espere muito em qualidade rsrsrs), este projeto foi sugerido e referido à mim, pela Rocketseat!</p>
+
+## Description
+
+<p>Hi! Welcome aboard down memory lane everyone! This is the oldest blog I have coded! (If you couldn't tell by the coding languages, I haven't done anything for the backend!)<br>Being one of my oldest projects ever developed (Don't expect much of it! lol), this project was suggested and refered for me, by Rocketseat!</p>

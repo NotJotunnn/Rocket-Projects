@@ -1,0 +1,244 @@
+/* GLOBALS */
+
+:root {
+    --button: #FF0000;
+    --main-background:  #C4C4C4;
+    --background: #E5E5E5;
+    --text: #000;
+    --footer: #000;
+    --text-description: #9C9696;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Taking out default values of padding and margin */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Stopping the page from having the side scroll */
+body, html {
+    overflow-x: hidden;
+}
+
+/* Header */
+
+/* Used for SVGs */
+
+.logo {
+    width: 52px;
+    height: 37px;
+}
+
+.small {
+    width: 25px;
+    height: 25px;
+}
+
+.medium {
+    width: 34px;
+    height: 34px;
+    scale: 70%;
+}
+
+/* Search field */
+
+label[for="search"] {
+    border: 2px solid lightgrey;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    background-color: white;
+}
+
+label[for="search"] input {
+    border: none;
+    outline: none;
+    position: relative;
+    width: 100px;
+}
+
+label[for="search"] svg {
+    rotate: 10deg;
+    scale: 80%;
+    position: relative;
+    right: 2px;
+}
+
+/* Navigation menu */
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+
+li {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.5vmin;
+}
+
+nav {
+    width: 50%;
+}
+
+header {
+    display: flex;
+    /* border: 2px solid red; */
+    height: 5vh;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 12px;
+    z-index: 2;
+}
+
+/* Main content */
+
+/* Separated in columns to better organize both contents */
+
+/* First column */
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 30vw;
+    height: 100%;
+    /* border: 4px solid red; */
+}
+
+.contentcol1 {
+    margin-left: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.column1 h1 {
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-size: 47px;
+    margin-top: 30%;
+}
+
+.column1 p {
+    margin-bottom: 30px;
+    color: var(--text-description);
+}
+
+.pricetag {
+    margin-bottom: 20px;
+}
+
+.column1 button {
+    width: 145px;
+    height: 50px;
+    text-transform: uppercase;
+    border: none;
+    background-color: var(--button);
+    color: var(--background);
+}
+
+/* Second column */
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    background-color: var(--main-background);
+}
+
+.contentcol2 {
+    width: 80%;
+    margin-left: 75px;
+}
+
+/* Image on top of the gallery */
+.contentcol2 > img {
+    width: 597px;
+    height: 510px;
+    margin-top: 140px;
+    /* border: 2px solid red; */
+}
+
+/* Gallery images */
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    width: 630px;
+    /* border: 2px solid red; */
+}
+
+/* Hover to add better interaction */
+.gallery img:hover {
+    border-bottom: 2px solid var(--button);
+}
+
+.gallery img:nth-of-type(1) {
+    /* scale: 10%; */
+    width: 269.51px;
+    height: 182.8px;
+    /* border: 2px solid red; */
+}
+
+.gallery img:nth-of-type(2) {
+    /* scale: 10%; */
+    width: 250px;
+    height: 182.8px;
+    /* border: 2px solid red; */
+}
+
+.gallery img:nth-of-type(3) {
+    /* scale: 10%; */
+    width: 270px;
+    height: 182.8150px;
+    /* border: 2px solid red; */
+}
+
+main {
+    display: flex;
+    height: 70vh;
+    /* border: 2px solid red; */
+    position: relative;
+    bottom: 67px;
+    z-index: 1;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    border: 2px solid red;
+}
+
+footer ul {
+    width: 650px;
+    height: 150px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer > button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 25%;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    justify-content: center;
+    background-color: var(--footer);
+    border: none;
+}
+
+button > svg {
+    width: 23px;
+    height: 23px;
+    /* border: 2px solid red; */
+}

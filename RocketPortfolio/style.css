@@ -1,0 +1,307 @@
+/* Globals */
+
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+}
+
+.space {
+    margin: 0px 0px 0px 20px;
+}
+
+.purple {
+    filter: hue-rotate(250deg) saturate(100%) brightness(1) contrast(1);;
+}
+
+img {
+    max-width: 10vw;
+    max-height: 10vh;
+}
+
+img.pic {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--body-bg-color);
+    max-width: 100%;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+/* Coluna 1 */
+
+.coluna1 > div {
+    padding: 5px;
+    margin: 15px 30px;
+    min-width: 25vw;
+}
+
+/* Perfil */
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil > h3 {
+    font-size: 80%;
+    margin-bottom: 25px;
+}
+
+.perfil > h2 {
+    margin: 30px 50px 0px 50px;
+    padding: 0px 00px 0px 00px;
+}
+
+.perfil > img {
+    background-color: yellowgreen;
+    margin-top: 20px;
+}
+
+.perfil {
+    background-color: var(--bg-cards);
+    color: var(--text-color);
+    border-radius: 20px;
+}
+
+/* Informações */
+
+.informacao {
+    background-color: var(--bg-cards);
+    color: var(--text-color);
+    border-radius: 20px;
+    margin: 0px 20px 0px 0px;
+}
+
+.informacaotext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textinformacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.informacao > ul {
+    margin: 0px 20px 0px 20px;
+}
+
+.informacao li:nth-of-type(1) {
+    margin: 10px 0px 0px 0px;
+}
+
+.informacao li:nth-last-of-type(1) {
+    margin: 0px 0px 10px 0px;
+}
+
+/* Tecnologias */
+
+.grid {
+    display: grid;
+    grid-template-areas: 
+    '1 2 3'
+    '4 5 6'
+    '7 8 9'
+    ;
+    gap: 15px;
+    align-items: center;
+}
+
+.grid > li {
+    background-color: var(--bg-techs);
+    color: var(--body-bg-color);
+    border-radius: 20px;
+    text-align: center;
+    font-size: 60%;
+    padding: 5px 5px 5px 5px;
+}
+
+.tecnologias {
+    background-color: var(--bg-cards);
+    color: var(--text-color);
+    border-radius: 20px;
+}
+
+.tecnologias > div {
+    padding: 20px 10px;
+}
+
+/* Experiências */
+
+.experiencias {
+    background-color: var(--bg-cards);
+    color: var(--text-color);
+    border-radius: 20px;
+}
+
+.experiencias > ul{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+/* Educação */
+
+.educacao {
+    background-color: var(--bg-cards);
+    color: var(--text-color);
+    border-radius: 20px;
+}
+
+.educacao > ul {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+/* Coluna 2 */
+
+.coluna2 > div {
+    padding: 5px;
+    margin: 15px;
+    max-width: 82vw;
+    min-width: 65.2vw;
+    /* width: 82vw; */
+}
+
+/* Título */
+
+.titulo {
+    display: flex;
+    flex: column;
+    justify-content: space-between;
+    background-color: var(--bg-cards);
+    color: var(--text-color);
+    border-radius: 20px;
+}
+
+.titulo > a {
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+}
+
+/* Projetos */
+
+.itensproj {
+    display: flex;
+    flex-direction: row;
+}
+
+.item1, .item2 {
+    background-color: var(--bg-cards);
+    color: var(--text-color);
+    border-radius: 20px;
+}
+
+.titulocarte {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dados {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cartes, .tecnocarte {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.estrela, .fork {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Posts */
+
+.postcard {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--bg-cards);
+    color: var(--text-color);
+    border-radius: 20px;
+    align-items: center;
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;
+}
+
+.tags > li::before {
+    content: "#";
+}
+
+/* fonte cutomizadas */
+
+.p10 {
+    font-size: 10px;
+}
+
+.p12 {
+    font-size: 12px;
+}
+
+.p13 {
+    font-size: 13px;
+}
+
+.p14 {
+    font-size: 14px;
+}
+
+.p16 {
+    font-size: 16px;
+}
+
+.p18 {
+    font-size: 18px;
+}
+
+.p20 {
+    font-size: 20px;
+}
+
+.p23 {
+    font-size: 23px;
+}
